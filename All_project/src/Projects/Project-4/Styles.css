@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  box-shadow: 0 0 5px 1px;
+  background: rgb(255, 255, 255);
+}
+.img {
+  height: 200px;
+  width: 250px;
+  border-right: 3px solid blue;
+  border-top: 3px solid blue;
+  border-top-right-radius: 50px;
+  border-radius: 120px;
+  border-radius: circle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  color: rgb(94, 81, 81);
+  font-family: "poppins";
+}
+h3 {
+  color: black;
+  font-family: "poppins";
+}
+p1 {
+  color: blue;
+  font-family: "poppins";
+}
+hr {
+  background: blue;
+  height: 2px;
+  width: 10rem;
+  margin-bottom: 50px;
+}
+.arrow {
+  background: transparent;
+  margin: 5px;
+  border-style: none;
+  color: rgb(97, 88, 88);
+}
+.arrow:hover {
+  background: transparent;
+  margin: 5px;
+  color: blue;
+  border: 1px solid blue;
+}
+.rand-btn {
+  background: rgb(111, 135, 243);
+  border-style: none;
+  padding: 3px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s all ease-in;
+}
+.rand-btn:hover {
+  background: rgb(15, 86, 216);
+  border-style: none;
+  padding: 3px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: white;
+}

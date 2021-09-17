@@ -1,0 +1,22 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+  width: 300px;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background: rgb(218, 212, 212);
+  border: 1px solid grey;
+}
+.checkout__button {
+  height: 30px;
+  border-radius: 3px;
+  background: orange;
+  width: 100%;
+  border: 1px solid;
+  border-color: orange rgb(255, 193, 21) orange;
+  color: black;
+  margin-top: 10px;
+}

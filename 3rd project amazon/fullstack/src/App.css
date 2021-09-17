@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  /* font-family: "poppins"; */
+}
+.body {
+  height: auto;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(241, 240, 240);
+}
+:root {
+  --white: rgb(255, 255, 255);
+  --light-white: rgb(27, 196, 27);
+  --black: black;
+  --green: green;
+}
+/* ********************************LOGO BALL ******************************/
+.ball {
+  animation: ball infinite 20s linear;
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+@keyframes ball {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-nav > li > a {
+  color: var(--black) !important;
+  font-family: "poppins";
+  font-weight: 800;
+  cursor: pointer;
+  margin: 5px;
+  border-top: 3px solid white;
+  transition: 1s ease;
+}
+
+.navbar-brand > img {
+  height: 100px;
+  border-radius: 20px;
+  width: 200px;
+}
+.navbar-nav li a:hover {
+  border-top: 3px solid var(--green);
+}
+.navbar-nav li a:focus {
+  border-top: 3px solid var(--green);
+}
+.container-wraper {
+  position: relative;
+  background: url(./Images/cusit.jpg) no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+}
+.inside-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inside-text > h1 {
+  font-family: "poppins";
+  text-transform: uppercase;
+}
+.typed-text {
+  color: var(--green);
+  font-family: "poppins";
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: lightblue;
+}
+/* ***********************************************FOOTER********************************** */
+.footer {
+  height: 150px;
+  width: 100%;
+  color: white;
+  background: #000;
+  margin-bottom: 0;
+  margin-top: 0px;
+  bottom: 0;
+  z-index: 1;
+  /* position: fixed; */
+}
+.footer-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.footer-data > h5 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.homeheader {
+  background: yellow;
+  height: 100vh;
+  width: 100%;
+  background: url("./Images//cusit.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+}

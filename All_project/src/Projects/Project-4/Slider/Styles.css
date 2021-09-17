@@ -1,0 +1,56 @@
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  box-shadow: 0 0 9px 8px white;
+  width: 90%;
+  /* transition: all ease-in-out;
+  transition-duration: 1s; */
+  /* animation-name: fade;
+  animation-duration: 1s; */
+  /* opacity: 0.5; */
+}
+.imag {
+  width: 100%;
+  height: 700px;
+  transition: all ease-in-out;
+  transition-duration: 1s;
+}
+.p-tag {
+  color: darkblue;
+  font-family: "poppins";
+}
+.text {
+  color: brown;
+  font-family: "poppins";
+}
+.next-btn {
+  border: none;
+  padding: 4px;
+  width: 10rem;
+  background: rgb(122, 88, 216);
+  color: white;
+  font-family: "poppins";
+  margin-bottom: 20px;
+  transition: 0.5s all ease-in;
+}
+.next-btn:hover {
+  border: 1px solid red;
+  padding: 4px;
+  width: 10rem;
+  background: rgb(255, 255, 255);
+  color: black;
+  font-family: "poppins";
+  margin-bottom: 20px;
+}
+/* @keyframes Fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */

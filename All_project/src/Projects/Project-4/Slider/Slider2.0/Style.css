@@ -1,0 +1,15 @@
+.card-img:hover {
+  border: 2px solid rgb(198, 198, 255);
+  width: 510px;
+  background: rgb(255, 192, 192);
+  box-shadow: 0 0 4px 3px rgb(255, 255, 255);
+}
+.image {
+  height: 500px;
+  width: 500px;
+}
+.name {
+  color: black;
+  font-family: "poppins";
+  font-weight: bold;
+}

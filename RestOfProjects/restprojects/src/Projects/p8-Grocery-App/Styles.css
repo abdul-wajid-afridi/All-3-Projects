@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.body {
+  background: lightblue;
+  min-height: 100vh;
+}
+.header-title {
+  color: brown;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grocery-container {
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 2px;
+  background: rgb(255, 255, 255);
+}
+.form-container {
+  /* display: flex; */
+}
+.grocery-input {
+  width: 90%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.grocery-input:hover {
+  width: 90%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px grey;
+}
+.btn-submit {
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn-submit:hover {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 5px 2px grey;
+}
+.grocey-list {
+  display: flex;
+}
+.grocey-list button {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-trash {
+}

@@ -1,0 +1,56 @@
+.que {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 40px;
+}
+span {
+  margin-left: auto;
+}
+.ans {
+  color: brown;
+  margin: 40px;
+}
+.pls {
+  color: black;
+  background: lightgrey;
+  padding: 4px;
+  border-radius: 25px;
+  border: none;
+}
+.pls:hover {
+  color: blue;
+  background: white;
+  padding: 4px;
+  border-radius: 25px;
+}
+.ngt {
+  color: red;
+
+  background: lightgrey;
+  padding: 4px;
+  border-radius: 25px;
+}
+.ngt:hover {
+  color: blue;
+  background: rgb(255, 255, 255);
+  padding: 4px;
+  border-radius: 25px;
+}
+hr {
+  background: brown;
+  margin-bottom: 4rem;
+  height: 2px;
+  width: 7rem;
+}
+.heading-3 {
+  color: brown;
+  font-family: "poppins";
+  font-weight: 800;
+}
+.Ans-container {
+  box-shadow: 0 0 6px 3px rgb(255, 255, 255);
+  /* padding: 0.1px; */
+  margin: 10px;
+}

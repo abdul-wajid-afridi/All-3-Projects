@@ -1,0 +1,19 @@
+.checkOutProducts {
+  display: flex;
+}
+.checkOutProducts__image {
+  height: 250px;
+  width: 250px;
+}
+.checkOutProducts__info {
+  margin-left: 10px;
+}
+.checkOutProducts__btn {
+  border: 1px solid orangered;
+  background: orange;
+  color: white;
+}
+.checkOutProducts__info > p1 {
+  color: orange;
+  font-weight: 800;
+}

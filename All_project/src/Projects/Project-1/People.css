@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 150px;
+}
+.image:hover {
+  height: 102px;
+  width: 102px;
+  border-radius: 150px;
+  box-shadow: 0 0 5px 2px rgb(128, 113, 113);
+}
+.text-container {
+  color: grey;
+  font-size: 20px;
+}
+.card {
+  height: 700px;
+  width: 500px;
+  background: rgb(255, 251, 251);
+  border-radius: 5px;
+  box-shadow: rgb(124, 110, 110) 0px 0px 6px 2px;
+}
+.heading3 {
+  color: rgb(53, 41, 41);
+  display: flex;
+  justify-content: start;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.btn-clear {
+  padding: 10px 50px;
+  border-radius: 3px;
+  border-style: none;
+  background: radial-gradient(
+    rgb(134, 40, 153),
+    rgb(212, 84, 180),
+    rgb(237, 171, 250)
+  );
+  color: white;
+  font-weight: bold;
+  transition: 0.5s all;
+  /* box-shadow: inset rgb(129, 116, 116) 0px 0px 5px 4px; */
+}
+.btn-clear:hover {
+  padding: 11px 55px;
+  border-radius: 3px;
+  border-style: solid;
+  background: transparent;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 5px 2px rgb(128, 113, 113);
+}

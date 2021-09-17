@@ -1,0 +1,52 @@
+.q_container {
+  border: 2px solid white;
+  background: rgb(255, 233, 163);
+}
+.q_container:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 4px 1px;
+  background: rgb(255, 233, 163);
+}
+.que {
+  color: black;
+  font-weight: bold;
+  font-family: "poppins";
+  background: rgb(255, 253, 253);
+}
+.que:hover {
+  color: black;
+  font-weight: bold;
+  font-family: "poppins";
+  background: rgb(255, 253, 253);
+  box-shadow: 0 0 4px 2px white;
+}
+.ans {
+  color: brown;
+  font-family: "poppins";
+}
+.negative {
+  background: grey;
+  padding: 2px;
+  border-radius: 25px;
+  color: white;
+  margin-left: auto;
+}
+.negative:hover {
+  background: white;
+  padding: 2px;
+  border-radius: 25px;
+  color: grey;
+}
+.positive {
+  background: grey;
+  padding: 2px;
+  border-radius: 25px;
+  color: white;
+  margin-left: auto;
+}
+.positive:hover {
+  background: rgb(255, 17, 28);
+  padding: 2px;
+  border-radius: 25px;
+  color: white;
+}

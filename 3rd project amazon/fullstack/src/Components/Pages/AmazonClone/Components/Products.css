@@ -1,0 +1,29 @@
+.card-gallary {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  transition: 0.5s ease;
+  object-fit: contain;
+  margin: 5px;
+  width: 24rem;
+}
+
+.card .card-body .ratings {
+  color: gold;
+}
+.card:hover {
+  box-shadow: 0px 0px 6px 3px grey;
+}
+.card img {
+  height: 300px;
+}
+.card-2-img {
+  display: flex;
+}

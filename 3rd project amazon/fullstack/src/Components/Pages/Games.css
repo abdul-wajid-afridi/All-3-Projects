@@ -1,0 +1,64 @@
+.gallary__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallary__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 30%;
+  width: 100%;
+  margin: 5px;
+  border: 2px solid red;
+}
+.gallary__img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+@media (min-width: 450px) {
+  .gallary__card {
+    display: flex;
+    flex: 100%;
+  }
+  .gallary__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media (min-width: 600px) {
+  .gallary__card {
+    display: flex;
+    flex: 50%;
+  }
+  .gallary__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media (min-width: 650px) {
+  .gallary__card {
+    display: flex;
+    flex: 40%;
+  }
+  .gallary__img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+@media (min-width: 750px) {
+  .gallary__card {
+    display: flex;
+    flex: 30%;
+  }
+  .gallary__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}

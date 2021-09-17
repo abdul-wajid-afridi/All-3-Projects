@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #d4bad1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.linetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.g__body {
+  background: lightblue;
+  height: 100vh;
+}
+.g__navbar {
+  display: flex;
+  justify-content: flex-start;
+  background: rgb(187, 238, 187);
+}
+/* .g__login {
+  display: flex;
+  margin-left: auto;
+  width: 10%;
+} */
+.g__btn {
+  background: transparent;
+  color: rgb(119, 3, 3);
+  font-family: "poppins" sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 4px 1px rgb(0, 0, 0);
+  margin: 10px;
+  transition: all 0.5s ease-in;
+  padding: 3px 6px;
+  /** content*/
+}
+
+.g__btn:hover {
+  background: rgb(255, 0, 85);
+  color: white;
+  font-family: "poppins" sans-serif;
+  text-decoration: underline white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 4px 1px rgb(255, 255, 255);
+  margin: 10px;
+}
+.g__gallary {
+  display: flex;
+  flex-wrap: wrap;
+}
+.g__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 30%;
+  border: 1px solid grey;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+.g__card:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 30%;
+  border: 1px solid grey;
+  box-shadow: 0 0 4px 2px rgb(80, 78, 78);
+
+  margin: 5px;
+}
+.g__image {
+  height: 400px;
+  width: 100%;
+}
+.g__title {
+  color: brown;
+  font-family: "poppins";
+  font-weight: bold;
+}
+.g__desc {
+  color: blue;
+  font-family: "poppins";
+}
+@media screen and (max-width: 980px) {
+  .g__image {
+    height: 400px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .g__image {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .g__image {
+    height: 400px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+}
